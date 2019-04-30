@@ -10,5 +10,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //hhhhhhhhhhddddd
+        //阮鸡鸡大坏蛋
     }
 }
