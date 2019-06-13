@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/item4_tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="dbsdhb"
+            />
+        <ImageView
+            android:id="@+id/item4_im1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_below="@id/item4_tv1"
+            />
+        <ImageView
+            android:id="@+id/item4_im2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_below="@id/item4_tv1"
+            android:layout_toRightOf="@id/item4_im1"
+            android:layout_marginLeft="30dp"
+            />
+        <ImageView
+            android:id="@+id/item4_im3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_below="@id/item4_tv1"
+            android:layout_toRightOf="@id/item4_im2"
+            android:layout_marginLeft="30dp"
+            />
+        <TextView
+            android:id="@+id/item4_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="nsdjvbs"
+            android:layout_below="@id/item4_im1"
+            />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
